@@ -1,0 +1,135 @@
+a{
+    padding-left: 10px;
+  }
+.home{
+  background-color: #d1e0ec;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+.home img{
+    border-radius: 50%;
+    padding-top: 10px;
+  }
+.home h6{
+  padding-top: 4px;
+}
+.header{
+    background-color: #2c2c2cfa;
+}
+.menu{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+button{
+    border-radius: 40%;
+    background-color: #9f8ad6;
+}
+#text-info p{
+    color: #717171;
+}
+.col1 {
+    float: end;
+    width: 20%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .col2 {
+    float: end;
+    width: 40%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .col3 {
+    float: start;
+    width: 40%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+body{
+    padding: 15px;
+}
+.container {
+    width: 90%; /* Full width */
+    background-color: #9e9696fa; /* Grey background */
+    text-align: end;
+}
+.skill{
+   width: 100%;
+}
+h5{
+  font-style: italic;
+  text-align:center ;
+}
+.skills {
+    text-align: end; /* Right-align text */
+    color: white; /* White text color */
+  }
+footer{
+  padding: 30px;
+  background-color: #1c2236;
+}
+
+  
+  .html {width: 90%; background-color: #391a8d;} 
+  .css {width: 80%; background-color: #391a8d;}
+  .js {width: 65%; background-color: #391a8d;}
+  
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin: auto;
+  padding-top: 30px;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 14px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
